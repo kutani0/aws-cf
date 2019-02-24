@@ -1,0 +1,891 @@
+AWSTemplateFormatVersion: 2010-09-09
+Metadata:
+  'AWS::CloudFormation::Designer':
+    71920b40-ff09-44f2-ad39-c09e8ce2a260:
+      size:
+        width: 630
+        height: 570
+      position:
+        x: 240
+        'y': 50
+      z: 1
+      embeds:
+        - 98803522-2c59-425c-8de1-407863580f80
+        - 79a082dc-3e6e-429b-9031-f643b92b4867
+        - 5fe1e1cb-adbc-424a-83f4-0f55134ea6c5
+    5fe1e1cb-adbc-424a-83f4-0f55134ea6c5:
+      size:
+        width: 330
+        height: 150
+      position:
+        x: 520
+        'y': 140
+      z: 2
+      parent: 71920b40-ff09-44f2-ad39-c09e8ce2a260
+      embeds: []
+      iscontainedinside:
+        - 71920b40-ff09-44f2-ad39-c09e8ce2a260
+        - 71920b40-ff09-44f2-ad39-c09e8ce2a260
+    842308a6-fa71-4ad8-95e0-7ef9ff6a5023:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 510
+        'y': 10
+      z: 1
+      embeds: []
+      iscontainedinside:
+        - 71920b40-ff09-44f2-ad39-c09e8ce2a260
+    5a1fa141-453f-4db7-a274-7026d727ae0a:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 210
+        'y': 270
+      z: 1
+      embeds: []
+    49123c4e-f10c-4444-ac54-085952fab041:
+      source:
+        id: 71920b40-ff09-44f2-ad39-c09e8ce2a260
+      target:
+        id: 5a1fa141-453f-4db7-a274-7026d727ae0a
+      z: 1
+    79a082dc-3e6e-429b-9031-f643b92b4867:
+      size:
+        width: 420
+        height: 300
+      position:
+        x: 340
+        'y': 200
+      z: 2
+      parent: 71920b40-ff09-44f2-ad39-c09e8ce2a260
+      embeds: []
+      iscontainedinside:
+        - 71920b40-ff09-44f2-ad39-c09e8ce2a260
+        - 71920b40-ff09-44f2-ad39-c09e8ce2a260
+    3f2abb11-0f0c-4f57-8cdb-e3a91f74d703:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 210
+        'y': 390
+      z: 0
+      embeds: []
+      isassociatedwith:
+        - 5a1fa141-453f-4db7-a274-7026d727ae0a
+      iscontainedinside:
+        - 79a082dc-3e6e-429b-9031-f643b92b4867
+      dependson:
+        - 49123c4e-f10c-4444-ac54-085952fab041
+    ef1926e5-bacf-41e5-826d-b74108321822:
+      source:
+        id: 79a082dc-3e6e-429b-9031-f643b92b4867
+      target:
+        id: 5fe1e1cb-adbc-424a-83f4-0f55134ea6c5
+      z: 2
+    6be45eb2-3cfa-4963-892e-b19ffdb6ac0e:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 620
+        'y': 60
+      z: 1
+      embeds: []
+      iscontainedinside:
+        - 5fe1e1cb-adbc-424a-83f4-0f55134ea6c5
+    98803522-2c59-425c-8de1-407863580f80:
+      size:
+        width: 330
+        height: 150
+      position:
+        x: 520
+        'y': 430
+      z: 2
+      parent: 71920b40-ff09-44f2-ad39-c09e8ce2a260
+      embeds: []
+      iscontainedinside:
+        - 71920b40-ff09-44f2-ad39-c09e8ce2a260
+        - 71920b40-ff09-44f2-ad39-c09e8ce2a260
+    45c4f015-57ee-4087-bfc7-f95ebc359132:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 530
+        'y': 660
+      z: 1
+      embeds: []
+      iscontainedinside:
+        - 71920b40-ff09-44f2-ad39-c09e8ce2a260
+    533d20a8-5606-455d-9790-95536438e880:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 660
+        'y': 670
+      z: 1
+      embeds: []
+      iscontainedinside:
+        - 98803522-2c59-425c-8de1-407863580f80
+    b9d18e01-a7ee-4287-be97-162578b3d944:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 150
+        'y': -60
+      z: 0
+      embeds: []
+      iscontainedinside:
+        - 3f4c4fce-c582-4884-8dfb-08a9eb3ca09c
+    3f4c4fce-c582-4884-8dfb-08a9eb3ca09c:
+      size:
+        width: 80
+        height: 300
+      position:
+        x: 40
+        'y': 130
+      z: 1
+      embeds: []
+    72fe9550-b638-4295-be6a-654a489bb20a:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 960
+        'y': 580
+      z: 1
+      embeds: []
+    192d31b4-1ee8-4143-9e00-7b532bbdc45b:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 960
+        'y': 480
+      z: 1
+      embeds: []
+      isassociatedwith:
+        - 72fe9550-b638-4295-be6a-654a489bb20a
+    406dab6e-9b14-43be-9146-e4e84869217b:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 1060
+        'y': 580
+      z: 1
+      embeds: []
+      isassociatedwith:
+        - 72fe9550-b638-4295-be6a-654a489bb20a
+    b975d691-6136-4f41-97f0-8b5836c4bd64:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 60
+        'y': 660
+      z: 1
+      embeds: []
+      iscontainedinside:
+        - 3f4c4fce-c582-4884-8dfb-08a9eb3ca09c
+    d8e17d19-287e-447f-bbda-599ae76f6ab6:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 140
+        'y': 30
+      z: 0
+      embeds: []
+      iscontainedinside:
+        - 3f4c4fce-c582-4884-8dfb-08a9eb3ca09c
+    14b19ab4-06b5-4aed-ba4a-62c81822f83e:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 960
+        'y': 40
+      z: 1
+      embeds: []
+    d382331a-f7ec-4df0-a96e-449212e7573f:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 960
+        'y': 140
+      z: 1
+      embeds: []
+    7e5e5fdf-26d2-40d7-b3a7-a8e9b1c39a68:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 960
+        'y': 220
+      z: 1
+      embeds: []
+    3786990f-61ff-4269-961f-1f0a86ec0ecf:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 960
+        'y': 320
+      z: 1
+      embeds: []
+      isassociatedwith:
+        - 7e5e5fdf-26d2-40d7-b3a7-a8e9b1c39a68
+    2a8f1d08-01a6-4051-acf9-650dafbbce33:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 960
+        'y': 400
+      z: 0
+      embeds: []
+Resources:
+  S3Bucket:
+    Type: 'AWS::S3::Bucket'
+    Properties:
+      AccessControl: PublicRead
+      WebsiteConfiguration:
+        IndexDocument: index.html
+        ErrorDocument: error.html
+      Tags:
+        - Key: Name
+          Value: cc104_S3_cf
+    DeletionPolicy: Retain
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 7e5e5fdf-26d2-40d7-b3a7-a8e9b1c39a68
+  BucketPolicy:
+    Type: 'AWS::S3::BucketPolicy'
+    Properties:
+      PolicyDocument:
+        Id: S3Policy
+        Version: 2012-10-17
+        Statement:
+          - Sid: PublicReadForGetBucketObjects
+            Effect: Allow
+            Principal: '*'
+            Action: 's3:GetObject'
+            Resource: !Join 
+              - ''
+              - - 'arn:aws:s3:::'
+                - !Ref S3Bucket
+                - /*
+      Bucket: !Ref S3Bucket
+      Tags:
+        - Key: Name
+          Value: cc104_S3_Policy_cf
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 3786990f-61ff-4269-961f-1f0a86ec0ecf
+  VPC:
+    Type: 'AWS::EC2::VPC'
+    Properties:
+      EnableDnsSupport: true
+      EnableDnsHostnames: true
+      CidrBlock: 10.10.0.0/16
+      Tags:
+        - Key: Name
+          Value: cc104_vpc_cf
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 71920b40-ff09-44f2-ad39-c09e8ce2a260
+  PublicSubnet:
+    Type: 'AWS::EC2::Subnet'
+    Properties:
+      VpcId: !Ref VPC
+      CidrBlock: 10.10.1.0/24
+      Tags:
+        - Key: Name
+          Value: cc104_pub_subnet_cf
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 5fe1e1cb-adbc-424a-83f4-0f55134ea6c5
+  WebServerSecurityGroup:
+    Type: 'AWS::EC2::SecurityGroup'
+    Properties:
+      VpcId: !Ref VPC
+      GroupDescription: Allow access from HTTP and SSH traffic
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: 80
+          ToPort: 80
+          CidrIp: 0.0.0.0/0
+        - IpProtocol: tcp
+          FromPort: 22
+          ToPort: 22
+          CidrIp: 0.0.0.0/0
+      SecurityGroupEgress:
+        - IpProtocol: -1
+          CidrIp: 0.0.0.0/0
+      Tags:
+        - Key: Name
+          Value: cc104_pub_SecurityGroup_cf
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 842308a6-fa71-4ad8-95e0-7ef9ff6a5023
+  InternetGateway:
+    Type: 'AWS::EC2::InternetGateway'
+    Properties:
+      Tags:
+        - Key: Name
+          Value: cc104_igw_cf
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 5a1fa141-453f-4db7-a274-7026d727ae0a
+  EC2VPCG4P1RL:
+    Type: 'AWS::EC2::VPCGatewayAttachment'
+    Properties:
+      InternetGatewayId: !Ref InternetGateway
+      VpcId: !Ref VPC
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 49123c4e-f10c-4444-ac54-085952fab041
+  PublicRouteTable:
+    Type: 'AWS::EC2::RouteTable'
+    Properties:
+      VpcId: !Ref VPC
+      Tags:
+        - Key: Name
+          Value: cc104_pub_rtable_cf
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 79a082dc-3e6e-429b-9031-f643b92b4867
+  PublicRoute:
+    Type: 'AWS::EC2::Route'
+    Properties:
+      RouteTableId: !Ref PublicRouteTable
+      DestinationCidrBlock: 0.0.0.0/0
+      GatewayId: !Ref InternetGateway
+      Tags:
+        - Key: Name
+          Value: cc104_pub_route_cf
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 3f2abb11-0f0c-4f57-8cdb-e3a91f74d703
+    DependsOn:
+      - EC2VPCG4P1RL
+  EC2SRTA1Y14R:
+    Type: 'AWS::EC2::SubnetRouteTableAssociation'
+    Properties:
+      RouteTableId: !Ref PublicRouteTable
+      SubnetId: !Ref PublicSubnet
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: ef1926e5-bacf-41e5-826d-b74108321822
+  EC2Role:
+    Type: 'AWS::IAM::Role'
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: 2012-10-17
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service:
+                - ec2.amazonaws.com
+            Action:
+              - 'sts:AssumeRole'
+      Path: /
+      Tags:
+        - Key: Name
+          Value: cc104_EC2_Role_cf
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 72fe9550-b638-4295-be6a-654a489bb20a
+  RolePolicies:
+    Type: 'AWS::IAM::Policy'
+    Properties:
+      PolicyName: ec2root
+      PolicyDocument:
+        Version: 2012-10-17
+        Statement:
+          - Effect: Allow
+            Action: '*'
+            Resource: '*'
+      Roles:
+        - !Ref EC2Role
+      Tags:
+        - Key: Name
+          Value: cc104_EC2_Role_Policies_cf
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 406dab6e-9b14-43be-9146-e4e84869217b
+  InstanceProfile:
+    Type: 'AWS::IAM::InstanceProfile'
+    Properties:
+      Path: /
+      Roles:
+        - !Ref EC2Role
+      Tags:
+        - Key: Name
+          Value: cc104_EC2_Profile_cf
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 192d31b4-1ee8-4143-9e00-7b532bbdc45b
+  WebServerInstance:
+    Type: 'AWS::EC2::Instance'
+    Properties:
+      Tags:
+        - Key: Name
+          Value: cc104_webapp_server_cf
+      InstanceType: !Ref InstanceType
+      ImageId: ami-1a15c77b
+      KeyName: !Ref KeyName
+      IamInstanceProfile: !Ref InstanceProfile
+      NetworkInterfaces:
+        - DeviceIndex: 0
+          AssociatePublicIpAddress: true
+          DeleteOnTermination: true
+          GroupSet:
+            - !Ref WebServerSecurityGroup
+          SubnetId: !Ref PublicSubnet
+      UserData: !Base64 
+        'Fn::Join':
+          - ''
+          - - |
+              #!/bin/bash
+            - |
+              yum update -y
+            - |
+              yum install -y docker git awscli ruby
+            - |
+              usermod -aG docker ec2-user
+            - |
+              service docker start
+            - |
+              chkconfig docker on
+            - |
+              $(aws ecr get-login --no-include-email --region ap-northeast-1)
+            - >
+              docker pull
+              204065533127.dkr.ecr.ap-northeast-1.apmazonaws.com/cc104devops-repo:0.0.1
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 6be45eb2-3cfa-4963-892e-b19ffdb6ac0e
+  PrivateSubnet:
+    Type: 'AWS::EC2::Subnet'
+    Properties:
+      VpcId: !Ref VPC
+      CidrBlock: 10.10.2.0/24
+      Tags:
+        - Key: Name
+          Value: cc104_pri_subnet_cf
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 98803522-2c59-425c-8de1-407863580f80
+  WebAppSecurityGroup:
+    Type: 'AWS::EC2::SecurityGroup'
+    Properties:
+      VpcId: !Ref VPC
+      GroupDescription: Only allow access from SSH traffic
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: 22
+          ToPort: 22
+          CidrIp: 10.10.1.0/24
+        - IpProtocol: tcp
+          FromPort: 80
+          ToPort: 80
+          CidrIp: 10.10.1.0/24
+      Tags:
+        - Key: Name
+          Value: cc104_pri_SecurityGroup_cf
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 45c4f015-57ee-4087-bfc7-f95ebc359132
+  WebAppInstance:
+    Type: 'AWS::EC2::Instance'
+    Properties:
+      Tags:
+        - Key: Name
+          Value: cc104_worker_cf
+      InstanceType: !Ref InstanceType
+      ImageId: ami-1a15c77b
+      KeyName: !Ref KeyName
+      IamInstanceProfile: !Ref InstanceProfile
+      NetworkInterfaces:
+        - DeviceIndex: 0
+          AssociatePublicIpAddress: false
+          DeleteOnTermination: true
+          GroupSet:
+            - !Ref WebAppSecurityGroup
+          SubnetId: !Ref PrivateSubnet
+      UserData: !Base64 
+        'Fn::Join':
+          - ''
+          - - |
+              #!/bin/bash
+            - |
+              yum update -y
+            - |
+              yum install -y docker git awscli ruby
+            - |
+              usermod -aG docker ec2-user
+            - |
+              service docker start
+            - |
+              chkconfig docker on
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 533d20a8-5606-455d-9790-95536438e880
+  DNSHZone:
+    Type: 'AWS::Route53::HostedZone'
+    Properties:
+      HostedZoneConfig:
+        Comment: Lab hosted zone for vcloudlab2.pro
+      Name: vcloudlab2.pro.
+      VPCs:
+        - VPCId: !Ref VPC
+          VPCRegion: ap-northeast-1
+      HostedZoneTags:
+        - Key: Name
+          Value: cc104HZone_cf
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 3f4c4fce-c582-4884-8dfb-08a9eb3ca09c
+  WebRSet1:
+    Type: 'AWS::Route53::RecordSet'
+    Properties:
+      HostedZoneId: !Ref DNSHZone
+      Comment: DNS name for my instance.
+      Name: app1.vcloudlab2.pro.
+      Type: A
+      TTL: '900'
+      ResourceRecords:
+        - !GetAtt 
+          - WebServerInstance
+          - PublicIp
+      Tags:
+        - Key: Name
+          Value: cc104_PublicIp_RecordSet_cf
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: d8e17d19-287e-447f-bbda-599ae76f6ab6
+  WebRSet2:
+    Type: 'AWS::Route53::RecordSet'
+    Properties:
+      HostedZoneId: !Ref DNSHZone
+      Comment: DNS name for my instance.
+      Name: web.vcloudlab2.pro.
+      Type: CNAME
+      TTL: '900'
+      ResourceRecords:
+        - !GetAtt 
+          - WebServerInstance
+          - PrivateDnsName
+      Tags:
+        - Key: Name
+          Value: cc104_Web_CNAME_RecordSet_cf
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: b9d18e01-a7ee-4287-be97-162578b3d944
+  WorkRset:
+    Type: 'AWS::Route53::RecordSet'
+    Properties:
+      HostedZoneId: !Ref DNSHZone
+      Comment: DNS name for my instance.
+      Name: work.vcloudlab2.pro.
+      Type: CNAME
+      TTL: '900'
+      ResourceRecords:
+        - !GetAtt 
+          - WebAppInstance
+          - PrivateDnsName
+      Tags:
+        - Key: Name
+          Value: cc104_Work_CNAME_RecordSet_cf
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: b975d691-6136-4f41-97f0-8b5836c4bd64
+  MySourceQueue:
+    Type: 'AWS::SQS::Queue'
+    Properties:
+      RedrivePolicy:
+        deadLetterTargetArn:
+          'Fn::GetAtt':
+            - MyDeadLetterQueue
+            - Arn
+        maxReceiveCount: 5
+      Tags:
+        - Key: Name
+          Value: cc104_sqs_cf
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: d382331a-f7ec-4df0-a96e-449212e7573f
+  MyDeadLetterQueue:
+    Type: 'AWS::SQS::Queue'
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 14b19ab4-06b5-4aed-ba4a-62c81822f83e
+  DynamoTable:
+    Type: 'AWS::DynamoDB::Table'
+    Properties: 
+      AttributeDefinitions: 
+        - 
+          AttributeName: "id"
+          AttributeType: "S"
+      KeySchema: 
+        - 
+          AttributeName: "id"
+          KeyType: "HASH"
+      ProvisionedThroughput: 
+        ReadCapacityUnits: "5"
+        WriteCapacityUnits: "5"
+      Tags:
+        - Key: Name
+          Value: cc104_dynamodb_cf
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 2a8f1d08-01a6-4051-acf9-650dafbbce33
+Parameters:
+  InstanceType:
+    Description: WebServer EC2 instance type
+    Type: String
+    Default: t2.micro
+    AllowedValues:
+      - t1.micro
+      - t2.micro
+      - t2.small
+      - t2.medium
+      - m1.small
+      - m1.medium
+      - m1.large
+      - m1.xlarge
+      - m2.xlarge
+      - m2.2xlarge
+      - m2.4xlarge
+      - m3.medium
+      - m3.large
+      - m3.xlarge
+      - m3.2xlarge
+      - c1.medium
+      - c1.xlarge
+      - c3.large
+      - c3.xlarge
+      - c3.2xlarge
+      - c3.4xlarge
+      - c3.8xlarge
+      - c4.large
+      - c4.xlarge
+      - c4.2xlarge
+      - c4.4xlarge
+      - c4.8xlarge
+      - g2.2xlarge
+      - r3.large
+      - r3.xlarge
+      - r3.2xlarge
+      - r3.4xlarge
+      - r3.8xlarge
+      - i2.xlarge
+      - i2.2xlarge
+      - i2.4xlarge
+      - i2.8xlarge
+      - d2.xlarge
+      - d2.2xlarge
+      - d2.4xlarge
+      - d2.8xlarge
+      - hi1.4xlarge
+      - hs1.8xlarge
+      - cr1.8xlarge
+      - cc2.8xlarge
+      - cg1.4xlarge
+    ConstraintDescription: must be a valid EC2 instance type.
+  KeyName:
+    Description: Name of an EC2 KeyPair to enable SSH access to the instance.
+    Type: 'AWS::EC2::KeyPair::KeyName'
+    ConstraintDescription: must be the name of an existing EC2 KeyPair.
+  SSHLocation:
+    Description: ' The IP address range that can be used to access the web server using SSH.'
+    Type: String
+    MinLength: '9'
+    MaxLength: '18'
+    Default: 0.0.0.0/0
+    AllowedPattern: '(\d{1,3})\.(\d{1,3})\.(\d{1,3})\.(\d{1,3})/(\d{1,2})'
+    ConstraintDescription: must be a valid IP CIDR range of the form x.x.x.x/x.
+Mappings:
+  AWSInstanceType2Arch:
+    t1.micro:
+      Arch: PV64
+    t2.micro:
+      Arch: HVM64
+    t2.small:
+      Arch: HVM64
+    t2.medium:
+      Arch: HVM64
+    m1.small:
+      Arch: PV64
+    m1.medium:
+      Arch: PV64
+    m1.large:
+      Arch: PV64
+    m1.xlarge:
+      Arch: PV64
+    m2.xlarge:
+      Arch: PV64
+    m2.2xlarge:
+      Arch: PV64
+    m2.4xlarge:
+      Arch: PV64
+    m3.medium:
+      Arch: HVM64
+    m3.large:
+      Arch: HVM64
+    m3.xlarge:
+      Arch: HVM64
+    m3.2xlarge:
+      Arch: HVM64
+    c1.medium:
+      Arch: PV64
+    c1.xlarge:
+      Arch: PV64
+    c3.large:
+      Arch: HVM64
+    c3.xlarge:
+      Arch: HVM64
+    c3.2xlarge:
+      Arch: HVM64
+    c3.4xlarge:
+      Arch: HVM64
+    c3.8xlarge:
+      Arch: HVM64
+    c4.large:
+      Arch: HVM64
+    c4.xlarge:
+      Arch: HVM64
+    c4.2xlarge:
+      Arch: HVM64
+    c4.4xlarge:
+      Arch: HVM64
+    c4.8xlarge:
+      Arch: HVM64
+    g2.2xlarge:
+      Arch: HVMG2
+    r3.large:
+      Arch: HVM64
+    r3.xlarge:
+      Arch: HVM64
+    r3.2xlarge:
+      Arch: HVM64
+    r3.4xlarge:
+      Arch: HVM64
+    r3.8xlarge:
+      Arch: HVM64
+    i2.xlarge:
+      Arch: HVM64
+    i2.2xlarge:
+      Arch: HVM64
+    i2.4xlarge:
+      Arch: HVM64
+    i2.8xlarge:
+      Arch: HVM64
+    d2.xlarge:
+      Arch: HVM64
+    d2.2xlarge:
+      Arch: HVM64
+    d2.4xlarge:
+      Arch: HVM64
+    d2.8xlarge:
+      Arch: HVM64
+    hi1.4xlarge:
+      Arch: HVM64
+    hs1.8xlarge:
+      Arch: HVM64
+    cr1.8xlarge:
+      Arch: HVM64
+    cc2.8xlarge:
+      Arch: HVM64
+  AWSRegionArch2AMI:
+    us-east-1:
+      PV64: ami-1ccae774
+      HVM64: ami-1ecae776
+      HVMG2: ami-8c6b40e4
+    us-west-2:
+      PV64: ami-ff527ecf
+      HVM64: ami-e7527ed7
+      HVMG2: ami-abbe919b
+    us-west-1:
+      PV64: ami-d514f291
+      HVM64: ami-d114f295
+      HVMG2: ami-f31ffeb7
+    eu-west-1:
+      PV64: ami-bf0897c8
+      HVM64: ami-a10897d6
+      HVMG2: ami-d5bc24a2
+    eu-central-1:
+      PV64: ami-ac221fb1
+      HVM64: ami-a8221fb5
+      HVMG2: ami-7cd2ef61
+    ap-northeast-1:
+      PV64: ami-27f90e27
+      HVM64: ami-cbf90ecb
+      HVMG2: ami-6318e863
+    ap-southeast-1:
+      PV64: ami-acd9e8fe
+      HVM64: ami-68d8e93a
+      HVMG2: ami-3807376a
+    ap-southeast-2:
+      PV64: ami-ff9cecc5
+      HVM64: ami-fd9cecc7
+      HVMG2: ami-89790ab3
+    sa-east-1:
+      PV64: ami-bb2890a6
+      HVM64: ami-b52890a8
+      HVMG2: NOT_SUPPORTED
+    cn-north-1:
+      PV64: ami-fa39abc3
+      HVM64: ami-f239abcb
+      HVMG2: NOT_SUPPORTED
+Outputs:
+  WebsiteURL:
+    Value: !GetAtt 
+      - S3Bucket
+      - WebsiteURL
+    Description: URL for website hosted on S3
+  S3BucketSecureURL:
+    Value: !Join 
+      - ''
+      - - 'https://'
+        - !GetAtt 
+          - S3Bucket
+          - DomainName
+    Description: Name of S3 bucket to hold website content
+  URL:
+    Value: !Join 
+      - ''
+      - - 'http://'
+        - !GetAtt 
+          - WebServerInstance
+          - PublicIp
+    Description: Newly created application URL
+  SourceQueueURL:
+    Description: URL of the source queue
+    Value:
+      Ref: MySourceQueue
+  SourceQueueARN:
+    Description: ARN of the source queue
+    Value:
+      'Fn::GetAtt':
+        - MySourceQueue
+        - Arn
+  DeadLetterQueueURL:
+    Description: URL of the dead letter queue
+    Value:
+      Ref: MyDeadLetterQueue
+  DeadLetterQueueARN:
+    Description: ARN of the dead letter queue
+    Value:
+      'Fn::GetAtt':
+        - MyDeadLetterQueue
+        - Arn
