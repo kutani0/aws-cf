@@ -5,47 +5,47 @@
 
 主控台介面選擇cloudcformation
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_82D40F3BA6624A0390A4F3BD9AC13162872036F7F58B869CCFE6BADFECB9B9F3_1549032993619_image.png)
+![](https://github.com/kutani0/aws-cf/blob/master/pic/01.png)
 
 
 進入畫面後，點選設計’模板”
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_82D40F3BA6624A0390A4F3BD9AC13162872036F7F58B869CCFE6BADFECB9B9F3_1549032872070_image.png)
+![](https://github.com/kutani0/aws-cf/blob/master/pic/02.png)
 
 
 進入模板設計畫面
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_82D40F3BA6624A0390A4F3BD9AC13162872036F7F58B869CCFE6BADFECB9B9F3_1549033369205_image.png)
+![](https://github.com/kutani0/aws-cf/blob/master/pic/03.png)
 
 
 下方”參數”設定畫面
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_82D40F3BA6624A0390A4F3BD9AC13162872036F7F58B869CCFE6BADFECB9B9F3_1549032642790_image.png)
+![](https://github.com/kutani0/aws-cf/blob/master/pic/04.png)
 
 
 下方”映像”設定畫面
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_82D40F3BA6624A0390A4F3BD9AC13162872036F7F58B869CCFE6BADFECB9B9F3_1549032675003_image.png)
+![](https://github.com/kutani0/aws-cf/blob/master/pic/05.png)
 
 
 下方"條件"設定畫面
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_82D40F3BA6624A0390A4F3BD9AC13162872036F7F58B869CCFE6BADFECB9B9F3_1549033142022_image.png)
+![](https://github.com/kutani0/aws-cf/blob/master/pic/06.png)
 
 
 下方"元數據"設定畫面
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_82D40F3BA6624A0390A4F3BD9AC13162872036F7F58B869CCFE6BADFECB9B9F3_1549033216369_image.png)
+![](https://github.com/kutani0/aws-cf/blob/master/pic/07.png)
 
 
 下方"輸出"設定畫面
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_82D40F3BA6624A0390A4F3BD9AC13162872036F7F58B869CCFE6BADFECB9B9F3_1549033236168_image.png)
+![](https://github.com/kutani0/aws-cf/blob/master/pic/08.png)
 
 
 下方"模板"設定畫面，可設定啟用哪些資源
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_82D40F3BA6624A0390A4F3BD9AC13162872036F7F58B869CCFE6BADFECB9B9F3_1549032559054_image.png)
+![](https://github.com/kutani0/aws-cf/blob/master/pic/09.png)
 
 ----------
 
@@ -76,7 +76,7 @@ AWS官方各項指導說明書：
 https://docs.aws.amazon.com/zh_tw/AWSCloudFormation/latest/UserGuide/aws-template-resource-type-ref.html
 
 ----------
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_82D40F3BA6624A0390A4F3BD9AC13162872036F7F58B869CCFE6BADFECB9B9F3_1549032559054_image.png)
+![](https://github.com/kutani0/aws-cf/blob/master/pic/10.png)
 
 
 **yaml的資源設定語法示意**
@@ -201,7 +201,7 @@ https://docs.aws.amazon.com/zh_tw/AWSCloudFormation/latest/UserGuide/aws-templat
 2019/01/27(測試單台EC2並運行userdata成功)
 2019/01/28(測試兩台EC2並運行userdata成功)
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_29DFDF9F6CED7BF1CCBB252B0A7E1E9DE6C5D28D58B675456EB59A22203F4B9C_1548779713247_image.png)
+![](https://github.com/kutani0/aws-cf/blob/master/pic/11.png)
 
 
 
@@ -516,7 +516,7 @@ https://docs.aws.amazon.com/zh_tw/AWSCloudFormation/latest/UserGuide/aws-templat
 
 **Cloudformation元件組合圖**
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_82D40F3BA6624A0390A4F3BD9AC13162872036F7F58B869CCFE6BADFECB9B9F3_1548941123673_newdns90-designer.png)
+![](https://github.com/kutani0/aws-cf/blob/master/pic/12.png)
 
 
 
